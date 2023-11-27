@@ -1,0 +1,18 @@
+[app]
+name = "cheery-back"
+version = "1.0.0"
+
+[[datasource]]
+name = "ds1"
+url = "mysql://qingyuehanxi:1693d1e2204c201d@mysql.sqlpub.com:3306/cheery"
+username = "root"
+password = "Linux@1991"
+[[datasource]]
+name = "ds2"
+url = "mysql://qingyuehanxi:`1qazxcv@db4free.net:3306/cheery"
+username = "root"
+password = "Epoch@1970"
+[redis]
+url = "redis://default:123456@121.196.235.233/"
+username = "default"
+password = "123456"
